@@ -1,5 +1,7 @@
 body {
     margin: 0;
+    max-width: 1700px;
+    margin: auto
 }
 
 div,
@@ -24,12 +26,16 @@ h6 {
     font-size: 32px;
 }
 
+.fs-big {
+    font-size: 20px;
+}
+
 .fs-normal {
     font-size: 16px;
 }
 
 .fs-small {
-    font-size: 10px;
+    font-size: 12px;
 }
 
 .fc-gray {
