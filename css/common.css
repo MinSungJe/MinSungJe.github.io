@@ -20,6 +20,7 @@ h6 {
     margin-top: 0;
     margin-bottom: 0;
     color: #373150;
+    transition: all 0.5s;
 }
 
 .fs-title {
@@ -47,17 +48,34 @@ h6 {
 }
 
 .nav-container {
+    height: 90px;
     display: flex;
     align-items: center;
-    padding: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
     box-shadow: 0px 7px 5px 0px rgba(55, 49, 80, 0.2);
     -webkit-box-shadow: 0px 7px 5px 0px rgba(55, 49, 80, 0.2);
     -moz-box-shadow: 0px 7px 5px 0px rgba(55, 49, 80, 0.2);
 }
+.nav-container > .fs-title {
+    margin-left: 30px;
+    margin-right: 50px;
+}
 
-.nav-container>p {
-    margin-left: 40px;
-    margin-right: 40px;
+.nav-btn {
+    width: 150px;
+    height: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    background: white;
+    border: none;
+    transition: all 0.5s;
+}
+.nav-btn:hover {
+    background: #373150;
+}
+.nav-btn:hover > p {
+    color: white;
 }
 
 footer {
