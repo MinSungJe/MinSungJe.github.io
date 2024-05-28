@@ -1,0 +1,12 @@
+.container {
+    padding: 100px 150px 100px 150px;
+    margin: auto;
+}
+
+.card-title {
+    color: white;
+    text-shadow: -1px 0px #373150, 0px 1px #373150, 1px 0px #373150, 0px -1px #373150;
+    position: absolute;
+    top: 40px;
+    left: 70px;
+}
