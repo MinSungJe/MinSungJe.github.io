@@ -59,3 +59,14 @@ h6 {
     margin-left: 40px;
     margin-right: 40px;
 }
+
+footer {
+    display: flex;
+    align-items: center;
+    background: #373150;
+    width: 100%;
+    padding: 10px 30px 10px 30px;
+}
+footer > .fs-big {
+    margin-right: 30px;
+}

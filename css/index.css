@@ -8,5 +8,38 @@
     text-shadow: -1px 0px #373150, 0px 1px #373150, 1px 0px #373150, 0px -1px #373150;
     position: absolute;
     top: 40px;
-    left: 70px;
+    left: 50px;
+    transition: all 0.5s;
+}
+
+.link-card {
+    display: block;
+    height: 270px;
+    overflow: hidden;
+    border-radius: 20px;
+    transition: all 0.5s;
+    border: 0px solid white;
+}
+
+.link-card:hover {
+    border-radius: 30px;
+    border: 10px solid white;
+}
+.link-card:hover>.card-title {
+    top: 50px;
+    left: 60px;
+}
+
+.p-tech {
+    position: relative;
+    bottom: 200px;
+}
+
+.p-study {
+    position: relative;
+    bottom: 70px;
+}
+
+.bc-dark {
+    filter: brightness(60%);
 }
