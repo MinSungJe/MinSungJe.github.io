@@ -1,6 +1,7 @@
 body {
     margin: 0;
     max-width: 1700px;
+    min-height: 700px;
     margin: auto
 }
 
