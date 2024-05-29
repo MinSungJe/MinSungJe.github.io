@@ -13,6 +13,7 @@
 .contacts-img-container>img {
     position: relative;
     right: 470px;
+    bottom: 170px;
 }
 
 .contacts-card-container {
