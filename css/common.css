@@ -73,16 +73,68 @@ h6 {
     border: none;
     transition: all 0.5s;
 }
+
 .nav-btn:hover {
     background: #373150;
 }
-.nav-btn:hover > p {
+
+.nav-btn:hover>p {
     color: white;
 }
 
 .container {
     padding: 50px 150px 100px 150px;
     margin: auto;
+}
+
+.card-container > div {
+    margin-top: 50px;
+}
+
+.info-card {
+    border: 1px solid white;
+    border-radius: 10px;
+    box-shadow: 0px 5px 5px 0px rgba(55, 49, 80, 0.30);
+    -webkit-box-shadow: 0px 5px 5px 0px rgba(55, 49, 80, 0.30);
+    -moz-box-shadow: 0px 5px 5px 0px rgba(55, 49, 80, 0.30);
+    display: flex;
+    transition: all 0.5s;
+}
+.info-card:hover {
+    border: 1px solid #373150;
+    box-shadow: 0px 5px 5px 3px rgba(55, 49, 80, 0.70);
+    -webkit-box-shadow: 0px 5px 5px 3px rgba(55, 49, 80, 0.70);
+    -moz-box-shadow: 0px 5px 5px 3px rgba(55, 49, 80, 0.70);
+}
+
+.link-card {
+    border: 1px solid white;
+    cursor: pointer;
+    border-radius: 10px;
+    box-shadow: 0px 5px 5px 0px rgba(55, 49, 80, 0.30);
+    -webkit-box-shadow: 0px 5px 5px 0px rgba(55, 49, 80, 0.30);
+    -moz-box-shadow: 0px 5px 5px 0px rgba(55, 49, 80, 0.30);
+    display: flex;
+    transition: all 0.5s;
+}
+.link-card:hover {
+    border: 1px solid #373150;
+    box-shadow: 0px 5px 5px 3px rgba(55, 49, 80, 0.70);
+    -webkit-box-shadow: 0px 5px 5px 3px rgba(55, 49, 80, 0.70);
+    -moz-box-shadow: 0px 5px 5px 3px rgba(55, 49, 80, 0.70);
+}
+
+.card-img-container {
+    width: 20%;
+    padding: 15px 30px 15px 30px;
+}
+.card-img-container > img {
+    width: 100%;
+}
+
+.card-desc-container {
+    width: 80%;
+    padding: 25px 15px 30px 15px;
 }
 
 footer {
@@ -92,6 +144,7 @@ footer {
     width: 100%;
     padding: 10px 30px 10px 30px;
 }
-footer > .fs-big {
+
+footer>.fs-big {
     margin-right: 30px;
 }
