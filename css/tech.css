@@ -1,0 +1,48 @@
+.tech-container {
+    padding: 10px;
+}
+
+.tech-row {
+    
+}
+
+.tech-card-row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tech-card-grid {
+    width: 25%;
+    padding: 20px;
+}
+
+.tech-card {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid white;
+    border-radius: 10px;
+    box-shadow: 0px 5px 5px 0px rgba(55, 49, 80, 0.30);
+    -webkit-box-shadow: 0px 5px 5px 0px rgba(55, 49, 80, 0.30);
+    -moz-box-shadow: 0px 5px 5px 0px rgba(55, 49, 80, 0.30);
+    transition: all 0.5s;
+}
+.tech-card > img {
+    filter: drop-shadow(2px 0 0 white) 
+        drop-shadow(0 2px 0 white)
+        drop-shadow(-2px 0 0 white) 
+        drop-shadow(0 -2px 0 white);
+}
+.tech-card:hover {
+    background: #373150;
+    border: 2px solid #373150;
+    box-shadow: 0px 5px 5px 3px rgba(55, 49, 80, 0.70);
+    -webkit-box-shadow: 0px 5px 5px 3px rgba(55, 49, 80, 0.70);
+    -moz-box-shadow: 0px 5px 5px 3px rgba(55, 49, 80, 0.70);
+}
+.tech-card:hover > p {
+    color: white;
+}
+.tech-card > * {
+    width: 100%;
+    text-align: center;
+}
